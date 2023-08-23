@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Calculadora</string>]
+    <string name="textViewAC">AC</string>
+    <string name="textViewMN">+/-</string>
+    <string name="textViewP">%</string>
+    <string name="textViewD">÷</string>
+    <string name="textViewM">+</string>
+    <string name="textViewN">-</string>
+    <string name="textViewV">x</string>
+    <string name="textViewI">=</string>
+    <string name="textViewE">⌫</string>
+    <string name="textViewVirgula">,</string>
+    <string name="textView0">0</string>
+    <string name="textView1">1</string>
+    <string name="textView2">2</string>
+    <string name="textView3">3</string>
+    <string name="textView4">4</string>
+    <string name="textView5">5</string>
+    <string name="textView6">6</string>
+    <string name="textView7">7</string>
+    <string name="textView8">8</string>
+    <string name="textView9">9</string>
+</resources>
