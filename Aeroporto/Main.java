@@ -12,7 +12,7 @@ public class Main {
         Piloto piloto1 = new Piloto("Justin", 35, "Masculino", "P123", 5000);
         Piloto piloto2 = new Piloto("Jesse", 40, "Masculino", "P456", 6000);
         
-        // Instanciando alguns aeroportos
+        // instanciando alguns aeroportos
         Aeroporto aeroporto1 = new Aeroporto("A", "Cidade A", "País A");
         Aeroporto aeroporto2 = new Aeroporto("B", "Cidade B", "País B");
 
@@ -23,7 +23,7 @@ public class Main {
         piloto1.cadastrar();
         piloto2.cadastrar();
 
-        // Imprimindo os nomes dos passageiros e pilotos
+        // imprimindo os nomes dos passageiros e pilotos
         System.out.println();
         System.out.println("Passageiro 1: " + passageiro1.getNome());
         System.out.println("Passageiro 2: " + passageiro2.getNome());
@@ -38,11 +38,15 @@ public class Main {
         System.out.println();
         piloto1.pilotoAeronave(aeronave1);
         piloto2.pilotoAeronave(aeronave2);
-    
+
         System.out.println();
         passageiro1.reservarVoo();
         passageiro2.reservarVoo();
         
+        System.out.println();
+        passageiro1.vooAeronave(aeronave1);
+        passageiro2.vooAeronave(aeronave2);
+
         System.out.println();
         aeronave1.voar();
         aeronave2.voar();
@@ -50,10 +54,6 @@ public class Main {
         System.out.println();
         aeroporto1.operarVoo(aeronave1);
         aeroporto2.operarVoo(aeronave2);
-
-        System.out.println();
-        aeroporto1.listarAeronaves();
-        aeroporto2.listarAeronaves(); 
         System.out.println();  
     }
 }

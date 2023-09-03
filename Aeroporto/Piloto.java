@@ -1,4 +1,4 @@
- public class Piloto extends Pessoa {
+public class Piloto extends Pessoa {
     private String brevete;
     private int horasVoadas;
     private Aeronave aeronave;
