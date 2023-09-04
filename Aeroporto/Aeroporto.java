@@ -1,5 +1,3 @@
-import java.util.List;
-
 public class Aeroporto {
     private String nome;
     private String cidade;
